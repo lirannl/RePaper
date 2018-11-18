@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WallpaperApp</string>
+    <string name="edit_message">Write Something</string>
+    <string name="button_send">Shit</string>
+    <string name="show_kitten">Show the kitty</string>
+    <string name="kitten_message">An image of a cat</string>
+</resources>
