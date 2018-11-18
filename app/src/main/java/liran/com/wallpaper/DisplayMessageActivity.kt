@@ -14,14 +14,15 @@ class DisplayMessageActivity : AppCompatActivity() {
         setContentView(R.layout.activity_display_message)
         val kittycode = "Show the kitty"
         val message = intent.getStringExtra(EXTRA_MESSAGE)
-        val textView = findViewById<TextView>(R.id.textView).apply {
+        findViewById<TextView>(R.id.textView).apply {
             text = message
         }
       if (message == kittycode)
        {
         //Make the image visible
-        val imageView = findViewById<ImageView>(R.id.imageView).apply {
-            visibility = View.VISIBLE }
+        findViewById<ImageView>(R.id.imageView).apply {
+            visibility = View.VISIBLE
+        }
        }
 
     }

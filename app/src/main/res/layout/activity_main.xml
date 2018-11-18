@@ -12,13 +12,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="text"
-            android:text="@string/edit_message"
             android:ems="10"
-            android:id="@+id/editText"
+            android:id="@+id/editText" android:onClick="setTextBox"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"
             android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/button"
-            android:importantForAutofill="no"/>
+            android:importantForAutofill="no" tools:text="@string/edit_message"
+            android:textColor="@color/colorAccent"/>
     <Button
             android:text="@string/button_send"
             android:layout_width="wrap_content"
